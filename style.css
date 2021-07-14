@@ -44,6 +44,7 @@ body{
     padding-right: 20px;
     font-size: 23px; 
     padding-top: 20px; 
+    flex-direction: row;
 }
 .header a{
     text-decoration: none;
@@ -69,7 +70,9 @@ nav a:hover{
     background-color: #E02C6D;
     border-radius: 10px;  
 } 
-
+.bar{
+    display: none;
+}
 
  /* --------------
                    Header End
@@ -395,7 +398,7 @@ font-size: 18px;
 
 }
 .end1{
-    height: 110px;
+    height: 90px;
     width: 262.1px;
     padding-left: 85px;
      
@@ -411,4 +414,207 @@ font-size: 18px;
     position: relative;
     left: 118px;
     top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------
+      Media Queries
+-------------------------*/
+
+
+/*----------------------
+      Mobile Devices
+-------------------------*/
+
+@media only screen and (max-width:688px) {
+  
+    .first-part{
+        /* background-color: red; */
+        width: 100%;  
+        
+    }
+    .header{
+        display: flex;
+    
+        flex-direction: column;
+        justify-content: left;
+    }
+    nav a{
+        display: none;
+    }
+    .bar{
+        display: inline;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        right: 130px;
+    }
+    .title h1{
+        font-size: 25px;
+        word-wrap: wrap;
+        right: 55px;
+    }
+    .header>span{
+        display: flex;
+         align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 100px;
+        height: 30px;
+        left: 150px;
+        bottom: 25px;
+        font-size: 10px;
+        
+        text-decoration: none;
+        color: white;
+        background-color: #E02C6D;
+        /* border-radius: 10px;   */
+    } 
+    .header>span a{
+        margin: 0px;
+    }
+        
+    
+    .title img{
+        position:absolute;
+        
+        align-items: center;
+        justify-content: center;
+        top: 320px;
+        
+        width: 80%;
+        height: 47%;
+    }
+    .live1{
+        position: relative;
+        left: 5px;
+        bottom: 35px;
+        font-size: 15px;
+        padding: 5px 20px;
+        border-radius: 20px;
+        color: white;
+        background-color: #E02C6D;
+        text-decoration: none;
+        align-items: center;  
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr); 
+        justify-content: center;
+        margin: 0;
+        padding-left: 5%;
+    }
+    .bottom-part{
+        display: block;
+        padding-top: 120px;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .bottom-text{
+        font-size: 15px;
+        word-wrap: wrap;
+        height: 309px;
+        width: 100%;
+        position: relative;
+        right: 130px;
+        /* padding-left: 120px; */
+        /* padding-right: 69px; */
+
+        margin: 0%;
+    } 
+    .bottom-part h1{
+        height: 66px;
+        width: 100%;
+        font-size: 30px;
+        word-wrap: wrap;
+        color: #0A0826;
+        margin: 0%;
+        text-align: left;
+    }   
+    .bottom-part img{
+        height: 300px;
+        width: 100%;
+        position: relative;
+        top: 120px;
+        right: 70px;
+        /* padding-right: 156px; */
+        /* padding-left: 69px; */
+    }
+    .live2{
+        position: relative;
+        left: 5px;
+        bottom: 35px;
+        font-size: 15px;
+        padding: 5px 20px;
+        border-radius: 20px;
+        color: white;
+        background-color: #E02C6D;
+        text-decoration: none;
+        align-items: center;  
+    } 
+    .extra{
+        display: none;
+    }
+    .end{
+        position: relative;
+        justify-items: center;
+       width: 100%;
+       height: 20px;
+       font-size: 18px;
+       left: 0px;
+       margin: 0px;
+       
+       
+        
+     }
+    .end1{
+        position: absolute;
+        right: 70px;
+        bottom: 250px;
+        height: 90px;
+        width: 80%;
+        margin: 0px;
+       
+         
+    }
+    .logo{
+        position: relative;
+        right: 15%;
+        
+    }
+    .logo img{
+        position: relative;
+        bottom: 200px;
+        height: 32px;
+        width: 32px;
+        margin: 0px;
+       
+    
+    }
+    footer{
+        position: relative;
+        bottom: 100px;
+        right: 15%;
+    }
+    .end p{
+        font-size: 20px;
+        width: 100%;
+        height: 19px;
+        position: absolute;
+        
+           
+        
+    }
 }

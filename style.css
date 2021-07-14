@@ -227,20 +227,28 @@ nav a:hover{
 
 
 
+
+
+
+
+
+
+                                                                                                    
+/*-------------------------------------------------------------------------
+
+
+                                                                             Bottom  Part Start
+
+
+                                                                                              ------------------------------------------------------------------------- */
+
 .bottom-part{
     display: flex;
     padding-top: 165px;
     justify-content: center;
     align-items: center;
     
-}                                                                                                                                                                                       
- 
-.bottom-part img{
-    height: 427px;
-    width: 567px;
-    padding-right: 156px;
-    padding-left: 69px;
-}                                                                                              
+} 
 .bottom-text{
     height: 309px;
     width: 466px;
@@ -248,17 +256,24 @@ nav a:hover{
     padding-left: 120px;
     padding-right: 69px;
     margin: 0%;
-}
+}  
 .bottom-part h1{
     height: 66px;
     width: 466px;
     font-size: 48px;
     word-wrap: wrap;
     color: #0A0826;
-    /* border: solid 2px red; */
     margin: 0%;
     text-align: left;
-}
+}                                                                                                                                                                                    
+ 
+.bottom-part img{
+    height: 427px;
+    width: 567px;
+    padding-right: 156px;
+    padding-left: 69px;
+}                                                                                              
+
 .live2{
         position: relative;
         top: 24px;
@@ -274,7 +289,7 @@ nav a:hover{
 
 
 
-
+/*----------------------------------------------------------------------------- Extra Part Start------------------------------------------------------------------ */
 
 
 
@@ -352,6 +367,22 @@ nav a:hover{
 }
 
 
+
+
+
+/*----------------------------------------------------------------------------- Extra Part End------------------------------------------------------------------ */
+
+
+
+
+      
+/*-------------------------------------------------------------------------
+
+
+                                                                             Bottom  Part End
+
+
+                                                                                              ------------------------------------------------------------------------- */
 
 
 .end{

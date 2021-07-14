@@ -1,19 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 /* -----------------
-     Start Css 
-----------------*/
+                    Start Css 
+                             ----------------*/
 
 body{
     font-family: 'Poppins', sans-serif;
-    
+    overflow-x: hidden;      
 }
 
+
+/*-------------------------------------------------------------------------
+
+
+
+                                                                             First Part Start
+
+
+           
+                                                                                                 ---------------------------------------------------------------------- */
+
+
+
+
+
+ /* --------------
+                   Header Start
+                                ---------------*/
 .first-part{
     height: 677px;
     width: 100%;
-    
     background-color: #562EFF;  
-
 }
 
 .header{
@@ -52,6 +70,17 @@ nav a:hover{
     border-radius: 10px;  
 } 
 
+
+ /* --------------
+                   Header End
+                                ---------------*/
+
+
+
+
+ /*------------------
+                      Title Start
+                                 ----------------- */
 .title{
     display: flex;
     justify-content: space-around;
@@ -66,9 +95,7 @@ nav a:hover{
     font-size: 70px;
     word-wrap: wrap;
     text-align: left;
-    color: white;
-    
-    
+    color: white;    
 }
 .title img{ 
     width: 556.01px;
@@ -87,6 +114,56 @@ nav a:hover{
     align-items: center;  
 }
 
+/*------------------
+                      Title End
+                                ----------------- */
+
+
+
+
+
+
+
+
+
+                                
+
+
+/*-------------------------------------------------------------------------
+
+
+                                                                             First Part End
+                                                                                            
+                                                                             
+                                                                                            ---------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+                                                                                            
+
+
+/*-------------------------------------------------------------------------
+
+
+
+                                                                             Mid  Part Start
+                                                                                             
+                                                                             
+                                                                                             ---------------------------------------------------------------------- */
+
+
+
+/*-------------------
+                       Players Start
+                                     -------------------*/
+
+
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr); 
@@ -98,14 +175,6 @@ nav a:hover{
     text-align: center;
     word-wrap: wrap; 
     padding-top: 70px;   
-}
-
-.player-img{
-    width: 300px;
-    height: 256px;
-    padding-left: 13.5px;
-    padding-right: 25px;
-      
 }
 .player{
     width: 330px;
@@ -126,4 +195,31 @@ nav a:hover{
     bottom: 20px;
     font-size: 28px;
 }
+.player-img{
+    width: 300px;
+    height: 256px;
+    padding-left: 13.5px;
+    padding-right: 25px;     
+}
 
+
+
+
+/*-------------------
+                       Players End
+                                   -------------------*/
+
+
+
+
+
+
+
+                                   
+/*-------------------------------------------------------------------------
+
+
+                                                                             Mid  Part End
+
+
+                                                                                              ------------------------------------------------------------------------- */

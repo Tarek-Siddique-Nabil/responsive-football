@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* -----------------
      Start Css 
 ----------------*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
 
 .first-part{
     height: 677px;
@@ -43,21 +49,21 @@ nav a:hover{
     text-decoration: none;
     color: white;
     background-color: #E02C6D;
-    border-radius: 20px;  
+    border-radius: 10px;  
 } 
 
 .title{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 0px;
     
 }
 .title h1{
     width: 27%;
     position: relative;
     bottom: 25px;
-    font-size: 80px;
+    font-size: 70px;
     word-wrap: wrap;
     text-align: left;
     color: white;
@@ -73,13 +79,51 @@ nav a:hover{
     left: 140px;
     bottom: 35px;
     font-size: 30px;
-    padding: 5px 10px;
-    border-radius: 10px;
+    padding: 5px 20px;
+    border-radius: 20px;
     color: white;
     background-color: #E02C6D;
     text-decoration: none;
+    align-items: center;  
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    justify-content: center;
     align-items: center;
-    
-    
+    grid-gap: 30px;
+    margin-left: 20.3%;
+    width: 1050px;
+    text-align: center;
+    word-wrap: wrap; 
+    padding-top: 70px;   
+}
+
+.player-img{
+    width: 300px;
+    height: 256px;
+    padding-left: 13.5px;
+    padding-right: 25px;
+      
+}
+.player{
+    width: 330px;
+    height: 474px;
+    padding-top: 27px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 40px gray;
+    text-shadow: none;  
+}
+.player p{
+    position: relative;
+    bottom: 40px;
+}
+.player h2{
+    position: relative;
+    bottom: 20px;
+    font-size: 28px;
 }
 
